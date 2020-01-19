@@ -1,0 +1,8 @@
+server\config\DocumentEndpoint.class
+server\repository\DocumentRepository.class
+server\model\Document.class
+server\service\DocumentService.class
+server\exception\DocumentAlreadyExist.class
+server\exception\DocumentNotFound.class
+server\service\DocumentServiceImpl.class
+server\repository\DocumentRepositoryImp.class
