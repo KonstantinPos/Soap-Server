@@ -11,7 +11,7 @@ import java.util.List;
 
 public class DocumentRepositoryImp implements DocumentRepository {
 
-    private List<Document> documentList;
+    public List<Document> documentList;
 
     public DocumentRepositoryImp() {
         documentList = new ArrayList<>();
