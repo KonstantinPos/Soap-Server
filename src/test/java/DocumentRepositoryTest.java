@@ -12,6 +12,11 @@ public class DocumentRepositoryTest {
     DocumentRepositoryImp documentRepositoryImp = new DocumentRepositoryImp();
 
     @Test
+    public void findAll() {
+        assertTrue(documentRepositoryImp.documentList.size() == 3);
+    }
+
+    @Test
     public void findById() throws DocumentNotFound {
         Document document1 = documentRepositoryImp.findById(2);
         assertTrue(document1.getAmount().equals(new BigDecimal("50000.05")));
